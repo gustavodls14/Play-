@@ -62,7 +62,7 @@ public:
 	void LoadState(Framework::CZipArchiveReader&);
 	void SaveState(Framework::CZipArchiveWriter&);
 
-private:
+public:
 	enum SIGNAL_STATE
 	{
 		SIGNAL_STATE_NONE,

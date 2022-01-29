@@ -782,7 +782,7 @@ void CPS2VM::OnCrtModeChange()
 
 void CPS2VM::EmuThread()
 {
-	fesetround(FE_TOWARDZERO);
+	//fesetround(FE_TOWARDZERO);
 	FpUtils::SetDenormalHandlingMode();
 	CProfiler::GetInstance().SetWorkThread();
 #ifdef __ANDROID__
